@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Hero from './components/lading-page/Hero'
 
 export default function Home() {
   return (
-    <div className="">Hello World</div>
-  );
+    <div className="max-w-7xl border mx-auto">
+      <Hero />
+      {/* <Header />
+      <VideoExplanation />
+      <Pricing />
+      <FAQ /> */}
+    </div>
+  )
 }
